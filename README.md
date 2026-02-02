@@ -1,7 +1,7 @@
 *This project has been created as part of the 42 curriculum by gcerrete*
 
 # Push Swap
-A program designed to sort a stack of casual integers. It accept a set of integers separated by space, as arguments whwn you launch the program.
+A program designed to sort a stack of random integers. It accepts a set of integers, separated by spaces, as arguments when the program is launched.
 
 ## Description
 The goal of this project is to create a program that sort casual stack of integers. There are some rules to follow:
@@ -43,16 +43,16 @@ There is an optimization correlation between the size of the stack to be sorted 
     <tr><td>16</td><td>627</td><td>-</td></tr>
     <tr><td>17</td><td>621</td><td>-</td></tr>
     <tr><td>18</td><td>648</td><td>-</td></tr>
-    <tr><td>19</td><td>638</td><td>-</td></tr>
+    <tr><td>19</td><td>653</td><td>-</td></tr>
     <tr><td>20</td><td>-</td><td>-</td></tr>
     <tr><td>21</td><td>-</td><td>-</td></tr>
     <tr><td>22</td><td>-</td><td>-</td></tr>
     <tr><td>23</td><td>-</td><td>-</td></tr>
     <tr><td>24</td><td>-</td><td>-</td></tr>
     <tr><td>25</td><td>-</td><td>-</td></tr>
-    <tr><td>26</td><td>-</td><td>5637</td></tr>
-    <tr><td>27</td><td>-</td><td>5634</td></tr>
-    <tr><td>28</td><td>-</td><td>5572</td></tr>
+    <tr><td>26</td><td>-</td><td>5677</td></tr>
+    <tr><td>27</td><td>-</td><td>5664</td></tr>
+    <tr><td>28</td><td>-</td><td>5552</td></tr>
     <tr><td>29</td><td>-</td><td>5544</td></tr>
     <tr><td>30</td><td>-</td><td>5566</td></tr>
     <tr><td>31</td><td>-</td><td>5555</td></tr>
