@@ -6,7 +6,7 @@
 /*   By: gcerrete <gcerrete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/10 15:18:41 by gcerrete          #+#    #+#             */
-/*   Updated: 2026/02/02 18:42:04 by gcerrete         ###   ########.fr       */
+/*   Updated: 2026/02/05 16:11:26 by gcerrete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,11 @@ static int	ft_sort_stack(int **stack, int sks, int sts)
 		else if (ft_path_choice(sort, sts) == 1)
 			while (!ft_top_check(stack[0][ft_first(stack[0], sks)], sort, sts))
 				count += ft_rule_rra(stack, sks);
+		if (PRINTOTALMOVES)
+		{
+			ft_printf("<moves %d>\n\n\n", count);
+			getchar();
+		}
 		ft_print_algo2(stack, sks, sort, sts);
 		if (ft_stack_ordered(stack[0], sks) == 1 && stack[0][0] != 0)
 			break ;
@@ -76,8 +81,8 @@ int	main(int argc, char **argv)
 	stack = malloc(2 * sizeof(int *));
 	i = 0;
 	setsiz = ((0.045 * ((argc - 1))) + 9.5);
-	if (setsiz > 32)
-		setsiz = 32;
+	if (setsiz > COLS)
+		setsiz = COLS;
 	stack[0] = ft_stack_create(argc, argv);
 	if (ft_stack_dup_ver(stack[0], argc - 1) == 1)
 		ft_err_duplic(stack);

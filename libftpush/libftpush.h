@@ -6,7 +6,7 @@
 /*   By: gcerrete <gcerrete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/10 15:18:41 by gcerrete          #+#    #+#             */
-/*   Updated: 2026/02/02 19:04:42 by gcerrete         ###   ########.fr       */
+/*   Updated: 2026/04/16 16:19:13 by gcerrete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@
 # include <unistd.h>
 # include <fcntl.h>
 # define ROWS 3
-# define COLS 40
-# define PRINTRULE 0
-# define PRINTOTALMOVES 1
+# define COLS 150
+# define PRINTRULE 1
+# define PRINTOTALMOVES 0
 # define PRINTORDSTACK 0
 # define PRINTALGO 0
 
